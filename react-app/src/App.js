@@ -126,7 +126,7 @@ class App extends Component {
               <Modal.Title>🎉</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-              Signed in with GitHub.
+              Signed in with MetaMask as: {this.state.account}
             </Modal.Body>
             <Modal.Footer>
               <Button variant="primary" onClick={this.handleClose}>
@@ -157,24 +157,24 @@ class App extends Component {
         </Button>
         */}
 
-        <p>This is the Dynamic NFT</p>
+        {/*<p>This is the Dynamic NFT</p>
 
-        <svg width="100" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          {/* head */}
+         <svg width="100" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
           <circle cx="50" cy="50" r="20" stroke="black" fill="transparent" stroke-width="5"/>
 
-          {/* body */}
+
           <line x1="50" x2="50" y1="70" y2="150" stroke="black" stroke-width="5"/>
 
-          {/* legs */}
+
           <line x1="50" x2="100" y1="150" y2="200" stroke="black" stroke-width="5"/>
           <line x1="50" x2="0" y1="150" y2="200" stroke="black" stroke-width="5"/>
 
-          {/* arms */}
+
           <line x1="50" x2="100" y1="100" y2="100" stroke="black" stroke-width="5"/>
           <line x1="50" x2="0" y1="100" y2="100" stroke="black" stroke-width="5"/>
 
-        </svg>
+        </svg> */}
       </header>
     </div>
     );
